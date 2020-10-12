@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>AWS Educate - Down for maintenance</title>
+	<style>
+
+	 @font-face {
+	     font-family: "Ember";
+	     src: url("AmazonEmber_Rg.woff2") format("woff2");
+	     font-weight: 400;
+	 }
+
+	 @font-face {
+	     font-family: "Ember";
+	     src: url("AmazonEmber_Bd.woff2") format("woff2");
+	     font-weight: 700;
+	 }
+
+	 body {
+	     text-align: center;
+	     font-family: "Ember", Helvetica, Arial, sans-serif;
+	     color: rgb(65, 65, 65);
+	 }
+
+	 h1 {
+	     font-size: 36px;
+	 }
+
+	 .main {
+	     margin: 100px auto 0 auto;
+	     width: 700px;
+	     padding: 40px;
+	     border: 1px solid #aaa;
+	     border-radius: 10px;
+	 }
+
+	 p.subhed {
+	     font-size: 24px;
+	     padding-bottom: 20px;
+	 }
+
+	 #logo {
+	     width: 400px;
+	 }
+
+	</style>
+    </head>
+    <body>
+	<div class="main">
+	    <img id="logo" src="aws-educate-logo.svg">
+	    <h1>Down for maintenance</h1>
+	    <p class="subhed">We apologize&mdash;AWS Educate is currently down for maintenance. We are working to get the site back up as soon as possible.</p>
+	    <p>If you have questions about your AWS Account, please <a href="https://console.aws.amazon.com/support/home?region=us-east-1#/case/create?issueType=customer-service">submit here</a>.</p>
+	    <p>If you have questions about your AWS Educate Starter Account, please <a href="https://aws.amazon.com/education/awseducate/contact-us/">submit here</a>.</p>
+	    <p>For any other customer service questions, please fill out <a href="https://aws.amazon.com/education/awseducate/contact-us/">this form.</a></p>
+	</div>
+    </body>
+</html>
